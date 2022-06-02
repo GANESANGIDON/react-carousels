@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "id": "1",
+      "src": "images/beach.jpg"
+    },
+    {
+      "id": "2",
+      "src": "images/disc-golf.jpg"
+    },
+    {
+      "id": "3",
+      "src": "images/earth.jpg"
+    },
+    {
+      "id": "4",
+      "src": "images/galaxy.jpg"
+    },
+    {
+      "id": "5",
+      "src": "images/kangaroo.jpg"
+    },
+    {
+      "id": "6",
+      "src": "images/moscow.jpg"
+    },
+    {
+      "id": "7",
+      "src": "images/red-panda.jpg"
+    },
+    {
+      "id": "8",
+      "src": "images/robin-bird.jpg"
+    }
+  ]
+}
