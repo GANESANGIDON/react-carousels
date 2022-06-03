@@ -7,13 +7,20 @@
 
 body {
   width: 100vw;
-  background-color: #98a8bb !important;
+  background-color: #ecedee !important;
+}
+
+.txt-bld-700{
+  font-weight: 700 !important;
 }
 
 .nav-links{
-  color: white;
+  color: darkslategrey;
+  font-weight: 500;
+  margin: 5px 15px;
 }
 
 .nav-links:hover{
-  color: rgb(226, 216, 221);
+  color: white;
 }
+

@@ -1,0 +1,49 @@
+.item{
+  text-align: center;
+  box-shadow: 0px 0px 3px rgb(141, 139, 139);
+  margin: 0px 8px;
+  border-radius: 5px;
+}
+
+.item img{
+  border-radius: inherit;
+}
+
+.owl-dots{
+  text-align: center;
+}
+
+.owl-dots .owl-dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: rgb(235, 136, 136) !important;
+}
+
+.owl-dot.active{
+ background-color: rgb(160, 16, 16) !important; 
+}
+
+.owl-nav{
+  padding-right: 20px;
+  text-align: end;
+}
+
+.owl-prev, .owl-next{
+  font-weight: 600 !important;
+  font-size: 30px !important;
+  color: rgb(22, 187, 187) !important;
+}
+
+.owl-prev:hover, .owl-next:hover{
+  color: rgb(7, 119, 119) !important;
+}
+
+.owl-prev{
+  margin: 0px 5px;
+}
+
+.owl-next{
+  margin: 0px 5px;
+}

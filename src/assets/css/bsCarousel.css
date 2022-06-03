@@ -1,25 +1,47 @@
-.carousel{
-  margin: auto;
-  width: 90% !important;
-  height: 80vh;
+.carousel {
+  margin: 20px auto;
+  width: 270px;
+  height: 200px;
 }
 
 .carousel-inner {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+/*--------------------------- For large mobile and small tablet devices ---------------------------*/
+@media (min-width: 481px) {
+  .carousel {
+    width: 400px;
+    height: 300px;
   }
-  
-  .carousel-item {
-    width: 100%;
-    height: 100%;
+}
+
+/*--------------------------- For tablet devices ---------------------------*/
+@media(min-width: 768px){
+  .carousel {
+    width: 600px;
+    height: 400px;
   }
-  
-  .carousel-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: inherit;
+}
+/*--------------------------- For small devices ---------------------------*/
+@media(min-width: 1024px){
+  .carousel {
+    width: 90%;
+    height: 90vh;
   }
-  
+}
+

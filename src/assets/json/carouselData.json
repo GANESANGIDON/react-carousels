@@ -10,11 +10,11 @@
     },
     {
       "id": "3",
-      "src": "images/earth.jpg"
+      "src": "images/omni-bus.jpg"
     },
     {
       "id": "4",
-      "src": "images/galaxy.jpg"
+      "src": "images/boat.jpg"
     },
     {
       "id": "5",
@@ -30,7 +30,11 @@
     },
     {
       "id": "8",
-      "src": "images/robin-bird.jpg"
+      "src": "images/railway.jpg"
+    },
+    {
+      "id": "9",
+      "src": "images/black-cat.jpg"
     }
   ]
 }
