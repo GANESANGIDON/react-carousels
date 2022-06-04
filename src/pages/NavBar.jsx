@@ -19,6 +19,9 @@ export default function NavBar() {
         <Link to="/owl" className="nav-links">
           Owl
         </Link>
+        <Link to="/review" className="nav-links">
+          Review
+        </Link>
         </Nav>
         </Navbar.Collapse>
       </Navbar>

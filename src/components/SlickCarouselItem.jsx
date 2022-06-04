@@ -1,29 +1,29 @@
 import { React, useState } from "react";
 import Slider from "react-slick";
-import "../assets/css/slickCarousel.css";
+import "../assets/css/slickCarouselItem.css";
 import carouselData from "../assets/json/carouselData.json";
 
-export default function NetflixCarousel() {
+export default function SlickCarouseItem() {
   const [slideId, setSlideId] = useState(0);
 
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 4000,
     lazyLoad: true,
     centerMode: true,
     centerPadding: "0px",
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    focusOnSelect: "true",
     beforeChange: (current, next) => {
       setSlideId(next);
     },
   };
 
   return (
-    <div className="slick_slider-container">
+    <>
       <Slider {...settings}>
         {carouselData.images.map((data, index) => {
           return (
@@ -40,6 +40,6 @@ export default function NetflixCarousel() {
           );
         })}
       </Slider>
-    </div>
+    </>
   );
 }

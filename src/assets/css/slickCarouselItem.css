@@ -1,27 +1,24 @@
-.slick_slider-container {
-  margin: 0px auto;
-  width: 85%;
-  height: 300px;
-}
 
 .slick-slider{
   padding: 0px 10px;
-}
+  margin: 0px auto;
+  width: 85%;
+} 
 
 .slick_slide {
   transform: scale(0.4);
   transition: 0.6s;
 }
 
-/* 
+
 .slick_activeSlide {
   transform: scale(1);
-} */
-
-
-.slick_slide:hover {
-  transform: scale(1);
 }
+
+
+/* .slick_slide:hover {
+  transform: scale(1);
+} */
 
 .slick_slide img {
   width: 100%;

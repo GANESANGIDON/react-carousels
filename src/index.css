@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none !important;
+  font-family: 'poppins', sans-serif;
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   background-color: #ecedee !important;
 }
 
