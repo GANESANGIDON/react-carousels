@@ -1,10 +1,10 @@
 .review-card {
   background-color: #ced6e4c9;
-  transform: scale(0.5);
+  transform: scale(0.4);
   transition: 0.5s;
 }
 
-.review-card.review-activeCard {
+#review-activeCard {
   transform: scale(1);
 }
 
@@ -14,13 +14,13 @@
 }
 
 .review-card-title {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .review-card-text {
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 14px;
+  font-size: 13px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;

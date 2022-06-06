@@ -18,10 +18,18 @@ body {
 .nav-links{
   color: darkslategrey;
   font-weight: 500;
-  margin: 5px 15px;
+  margin: 5px 10px;
 }
 
 .nav-links:hover{
   color: white;
 }
 
+.text-card {
+  transform: scale(0.4);
+  transition: 0.5s;
+}
+
+#text-activeCard {
+  transform: scale(1);
+}
