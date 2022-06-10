@@ -1,16 +1,21 @@
 .review-card {
-  background-color: #ced6e4c9;
+  background-color: #c6e2f3e1;
   transform: scale(0.4);
   transition: 0.5s;
-}
+} 
 
 #review-activeCard {
   transform: scale(1);
 }
 
 .review-card-img {
-  width: 50%;
+  width: 80px;
   border-radius: 50%;
+}
+
+.img-thumbnail{
+  background: linear-gradient(40deg,#2D7BFA, #62A8FB);
+  border: none;
 }
 
 .review-card-title {
@@ -18,10 +23,6 @@
 }
 
 .review-card-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 13px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
+  min-width: 200px;
 }

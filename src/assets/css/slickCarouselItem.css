@@ -4,25 +4,6 @@
   width: 90%;
 } 
 
-/* .slick_slide {
-  transform: scale(0.4);
-  transition: 0.6s;
-}
-
-
-.slick_activeSlide {
-  transform: scale(1);
-} */
-
-
-/* .slick_slide:hover {
-  transform: scale(1);
-} */
-/* 
-.slick_slide img {
-  width: 100%;
-} */
-
 .slick-arrow{
   z-index: 10;
   width: 25px;

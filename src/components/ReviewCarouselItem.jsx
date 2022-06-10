@@ -1,12 +1,19 @@
-import { React, useState } from "react";
-import { Button, Card } from "react-bootstrap";
+import { React } from "react";
+import { Card } from "react-bootstrap";
 import "../assets/css/reviewCarouselItem.css";
-import useCollapse from "react-collapsed";
+import ShowMoreText from "react-show-more-text";
 
 export default function ReviewCarouselItem({ data, index, slideId }) {
-
-  const [isExpanded, setExpanded] = useState(false);
-  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+  const showProps = {
+    lines: 3,
+    more: "Show more",
+    less: "Show less",
+    className: "content-css",
+    anchorClass: "my-anchor-css-class",
+    expanded: false,
+    width: 280,
+    truncatedEndingComponent: "... ",
+  };
 
   return (
     <>
@@ -27,23 +34,12 @@ export default function ReviewCarouselItem({ data, index, slideId }) {
           <Card.Subtitle className="text-center">
             <p className="text-muted">{data.country}</p>
           </Card.Subtitle>
-          <Card.Text
-            className="review-card-text"
-          >
-            {data.description}
-          </Card.Text>
-            <Button
-              {...getToggleProps({
-                onClick: () => setExpanded((prevExpanded) => !prevExpanded),
-              })}
-            >
-              {isExpanded ? "Collapse" : "Expand"}
-            </Button>
-            <section {...getCollapseProps()}>
-              Collapsed content 🙈 Lorem ipsum dolor sit amet consectetur
-              adipisicing elit.eligendi consequuntur non quo cupiditate!
-              Sapiente.
-            </section>
+          <hr />
+          <ShowMoreText {...showProps}>
+            <Card.Text className="review-card-text">
+              {data.description}
+            </Card.Text>
+          </ShowMoreText>
         </Card.Body>
       </Card>
     </>

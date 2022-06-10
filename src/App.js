@@ -10,6 +10,7 @@ import {
   ReactOwl,
   ReviewCarousel,
 } from "./pages";
+import Certificates from "./components/certificates/Certificates";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/slick" element={<SlickCarousel />} />
         <Route path="/owl" element={<ReactOwl />} />
         <Route path="/review" element={<ReviewCarousel />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
     </>
   );

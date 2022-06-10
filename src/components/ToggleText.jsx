@@ -11,7 +11,7 @@ export default function ToggleText( {data, index, slideId}) {
       <Card.Body className="bg-light mx-2 text-card" id = {index === slideId?"text-activeCard":""}>
         <ShowMoreText
           /* Default options */
-          lines={2}
+          lines={3}
           more="Show more"
           less="Show less"
           className="content-css"

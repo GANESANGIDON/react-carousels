@@ -5,11 +5,14 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="info" className="mb-3 px-4" expand = "sm">
+      <Navbar bg="info" className="fixed-top mb-3 px-4" expand = "sm">
         <Navbar.Brand href = "/" className="text-dark txt-bld-700"><code>&lt;</code>Carousels<code>&gt;</code></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
+        <Link to="/certificates" className="nav-links">
+          Certificates
+        </Link>
         <Link to="/" className="nav-links">
           Bootstrap
         </Link>

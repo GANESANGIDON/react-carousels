@@ -1,0 +1,21 @@
+.slick-slider{
+  margin: 0px auto;
+} 
+
+.slick-arrow{
+  display: none;
+  pointer-events: none;
+}
+
+.slick-arrow:before{
+  display: none;
+}
+/* 
+.certificate-card{
+  transform: scale(0.7);
+  transition: 0.5s;
+} */
+/* 
+#active-certificate-card{
+  transform: scale(1);
+} */

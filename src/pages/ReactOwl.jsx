@@ -7,8 +7,9 @@ import carouselData from "../assets/json/carouselData.json";
 
 export default function ReactOwl() {
   const options = {
-    items: 3,
+    items: 6,
     loop: true,
+    autoplaySpeed: 2000,
     autoplay: true,
     dots: true,
     nav: true,

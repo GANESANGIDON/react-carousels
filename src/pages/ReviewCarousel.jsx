@@ -33,7 +33,7 @@ export default function ReviewCarousel() {
     // autoplaySpeed: 4000,
     lazyLoad: true,
     centerMode: true,
-    centerPadding: "0px",
+    centerPadding: "70px",
     focusOnSelect: "true",
     responsive: [...responsiveness],
     beforeChange: (current, next) => {
