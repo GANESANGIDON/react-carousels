@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
 
 export default function CertificatesItem({ slideId, index }) {
   return (
@@ -9,7 +9,7 @@ export default function CertificatesItem({ slideId, index }) {
         id={index === slideId ? "active-certificate-card" : ""}
         style={{ height: "600px" }}
       > */}
-      <div>
+      <div  className="iframe-container">
         <iframe
           src="https://www.linkedin.com/embed/feed/update/urn:li:share:6941017378050703360"
           frameborder="0"

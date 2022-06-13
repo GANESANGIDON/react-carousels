@@ -9,9 +9,8 @@ import {
   SlickCarousel,
   ReactOwl,
   ReviewCarousel,
-} from "./pages";
-import Certificates from "./components/certificates/Certificates";
-
+} from "./components";
+import Certificates from "./components/certificates";
 function App() {
   return (
     <>

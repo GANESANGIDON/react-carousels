@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import "../assets/css/bsCarousel.css";
-import carouselData from "../assets/json/carouselData.json";
+import "./bsCarousel.css";
+import carouselData from "../slick-carousel/carouselData.json";
 
 export default function BsCarousel() {
   return (

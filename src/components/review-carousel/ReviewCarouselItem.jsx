@@ -1,6 +1,6 @@
 import { React } from "react";
 import { Card } from "react-bootstrap";
-import "../assets/css/reviewCarouselItem.css";
+import "./reviewCarouselItem.css";
 import ShowMoreText from "react-show-more-text";
 
 export default function ReviewCarouselItem({ data, index, slideId }) {

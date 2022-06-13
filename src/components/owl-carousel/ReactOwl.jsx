@@ -2,12 +2,12 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import "../assets/css/reactOwl.css";
-import carouselData from "../assets/json/carouselData.json";
+import "./reactOwl.css";
+import carouselData from "../slick-carousel/carouselData.json";
 
 export default function ReactOwl() {
   const options = {
-    items: 6,
+    items: 3,
     loop: true,
     autoplaySpeed: 2000,
     autoplay: true,

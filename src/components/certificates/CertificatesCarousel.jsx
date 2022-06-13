@@ -9,21 +9,17 @@ export default function CertificatesCarousel() {
 
   const responsiveness = [
     {
-      breakpoint: 1024,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
+        centerPadding: "80px",
       },
     },
     {
       breakpoint: 576,
       settings: {
-        slidesToShow: 2,
-      },
-    },
-    {
-      breakpoint: 481,
-      settings: {
         slidesToShow: 1,
+        centerPadding: "0px",
       },
     },
   ];
@@ -31,25 +27,28 @@ export default function CertificatesCarousel() {
   const settings = {
     infinite: true,
     speed: 600,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
     // pauseOnHover: true,
     focusOnSelect: true,
+    centerMode: true,
+    className: "center",
+    centerPadding: "100px",
     cssEase: "ease",
     responsive: [...responsiveness],
-    // beforeChange: (current, next) => {
-    //   setSlideId(next);
-    // },
+    beforeChange: (current, next) => {
+      setSlideId(next);
+    },
   };
 
   const arr = [1, 2, 3, 4, 5, 6];
 
   return (
     <>
-      <div className="w-100 my-3">
-        <Row className="col-11 col-xl-10 px-xl-3 mx-auto">
+      <div className="w-100 my-3 ms-auto">
+        <Row className="col-12 col-xl-11 px-xl-3">
           <Slider {...settings}>
             {arr.map((data, index) => {
               return (

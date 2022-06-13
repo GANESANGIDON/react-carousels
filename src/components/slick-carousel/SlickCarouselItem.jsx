@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import Slider from "react-slick";
-import "../assets/css/slickCarouselItem.css";
-import carouselData from "../assets/json/carouselData.json";
+import "../slickCarouselItem.css";
+import carouselData from "./carouselData.json";
 
 export default function SlickCarouseItem() {
   const [slideId, setSlideId] = useState(0);

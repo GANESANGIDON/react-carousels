@@ -1,9 +1,9 @@
 import { React, useState } from "react";
-import ToggleText  from '../components/ToggleText.jsx';
+import ReviewCarouselItem  from "./ReviewCarouselItem";
 import Slider from "react-slick";
-import reviewData from "../assets/json/reviewData.json";
+import reviewData from "./reviewData.json";
 
-export default function SlickCarousel() {
+export default function ReviewCarousel() {
   const [slideId, setSlideId] = useState(0);
   const responsiveness = [
     {
@@ -33,7 +33,7 @@ export default function SlickCarousel() {
     // autoplaySpeed: 4000,
     lazyLoad: true,
     centerMode: true,
-    centerPadding: "0px",
+    centerPadding: "70px",
     focusOnSelect: "true",
     responsive: [...responsiveness],
     beforeChange: (current, next) => {
@@ -46,7 +46,7 @@ export default function SlickCarousel() {
       <Slider {...settings}>
         {reviewData.candidate.map((data, index) => {
           return (
-            <ToggleText
+            <ReviewCarouselItem
               key={data.id}
               data={data}
               index={index}
@@ -57,5 +57,4 @@ export default function SlickCarousel() {
       </Slider>
     </>
   );
-
 }
