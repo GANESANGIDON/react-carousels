@@ -11,7 +11,6 @@ export default function ReviewCarouselItem({ data, index, slideId }) {
     className: "content-css",
     anchorClass: "my-anchor-css-class",
     expanded: false,
-    width: 280,
     truncatedEndingComponent: "... ",
   };
 

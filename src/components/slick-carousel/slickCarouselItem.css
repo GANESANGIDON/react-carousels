@@ -1,16 +1,16 @@
 
-.slick-slider{
+/* .slick-slider{
   margin: 0px auto;
   width: 90%;
-} 
+}  */
 
-.slick-arrow{
+/* .slick-arrow{
   z-index: 10;
   width: 25px;
   height: 25px;
-}
+} */
 
-.slick-arrow::before{
+/* .slick-arrow::before{
   font-size: 25px;
   color: rgb(7, 139, 148) !important;
 }
@@ -25,4 +25,4 @@
 
 .slick-active button::before{
   color: rgb(0, 196, 186) !important;
-}
+} */

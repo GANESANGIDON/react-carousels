@@ -40,8 +40,8 @@
 /*--------------------------- For small devices ---------------------------*/
 @media(min-width: 1024px){
   .carousel {
-    width: 90%;
-    height: 90vh;
+    width: 700px;
+    height: 480px;
   }
 }
 

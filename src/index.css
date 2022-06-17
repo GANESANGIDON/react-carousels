@@ -3,27 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none !important;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Nunito', sans-serif, 'Work Sans';
 }
 
 body {
   width: 100%;
-  padding-top: 60px;
   background-color: #ecedee !important;
-}
-
-.txt-bld-700{
-  font-weight: 700 !important;
-}
-
-.nav-links{
-  color: darkslategrey;
-  font-weight: 500;
-  margin: 5px 10px;
-}
-
-.nav-links:hover{
-  color: white;
 }
 
 .text-card {
